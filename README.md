@@ -9,5 +9,11 @@ The following are the results of our group in this competition
 | F1-Score |               |       |       |        |      |
 
 Sample predictions:
+|                             D00                              |                             D10                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src="https://user-images.githubusercontent.com/92203298/189850301-5d7382d6-ea01-4aad-a34d-876bb2699bb4.jpg" width="200" height="200" alt="D00"/> | <img src="https://user-images.githubusercontent.com/92203298/189851027-b6cc3800-6524-47eb-adf5-7bd60df18e93.jpg" width="200" height="200" alt="D00"/> |
+|                             D20                              |                             D40                              |
+| <img src="https://user-images.githubusercontent.com/92203298/189851969-dabd3d40-ea05-4dcd-babe-c4c7fe28e64a.jpg" width="200" height="200" alt="D00"/> | <img src="https://user-images.githubusercontent.com/92203298/189851990-c229a1e2-80a3-4cf2-a860-314f860a8032.jpg" width="200" height="200" alt="D00"/> |
 
-![Czech_000005](https://user-images.githubusercontent.com/92203298/189850301-5d7382d6-ea01-4aad-a34d-876bb2699bb4.jpg)
+
+
