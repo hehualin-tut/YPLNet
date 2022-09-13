@@ -22,7 +22,7 @@ Sample predictions:
 2.[Quick-start](https://github.com/hhl12138/CRDDC2022#Quick-start)
 
 
-3.[Inference/Detection](https://github.com/hhl12138/CRDDC2022#Inference/Detection)
+3.[Inference(Detection)](https://github.com/hhl12138/CRDDC2022#Inference(Detection))
 
 
 4.[Training](https://github.com/hhl12138/CRDDC2022#Training)
@@ -46,7 +46,7 @@ You need to install:
    git clone https://github.com/hhl12138/CRDDC2022.git
    ```
    
-# Inference/Detection
+# Inference(Detection)
 1. Go to `yolov5` directory
 
    ```
