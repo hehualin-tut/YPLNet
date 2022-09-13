@@ -43,8 +43,57 @@ You need to install:
 1. Clone the road-damage-detection repo into your path:
 
    ```
-   git clone https://github.com/USC-InfoLab/rddc2020.git
+   git clone https://github.com/hhl12138/CRDDC2022.git
    ```
+   
+# Inference/Detection
+1. Go to `yolov5` directory
+
+   ```
+   cd yolov5
+   ```
+2.Execute one of the follwoing commands to generate `results.csv`(competition format) and predicated images under `inference/output/`
+
+ 
+  ```
+  python3 detect.py --weights weights/all/32-1024-130.pt --img 1024 --source [your datasets path] --conf-thres 0.135 --iou-thres 0.9999 --agnostic-nms --augment
+  ```
+  
+  ```
+  python3 detect.py --weights weights/India/32-1024-110.pt --img 1024 --source [your datasets path] --conf-thres 0.1 --iou-thres 0.9999 --agnostic-nms --augment
+  ```
+
+  ```
+  python3 detect.py --weights weights/Japan/32-1024-130.pt --img 1024 --source [your datasets path] --conf-thres 0.13 --iou-thres 0.9999 --agnostic-nms --augment
+  ```
+
+  ```
+  python3 detect.py --weights weights/Norway/32-1024-130.pt --img 1024 --source [your datasets path] --conf-thres 0.125 --iou-thres 0.9999 --agnostic-nms --augment
+  ```
+
+  ```
+  python3 detect.py --weights weights/US/32-1024-110.pt --img 1024 --source [your datasets path] --conf-thres 0.17 --iou-thres 0.9999 --agnostic-nms --augment
+  ```
+  
+# Train your own model
+
+1. run following command
+
+   ```
+   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1024
+   ```
+
+visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments
+
+
+
+
+
+
+
+
+
+
 
 
 
