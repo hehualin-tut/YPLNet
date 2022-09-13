@@ -28,6 +28,29 @@ Sample predictions:
 4.Train your own model
 
 # Prerequisites
+You need to install:
+
+- [Python3 >= 3.6](https://www.python.org/downloads/)
+
+- Use `requirements.txt` to install required python dependencies
+
+  ```
+  # Python >= 3.6 is needed
+  pip3 install -r requirements.txt
+  ```
+  
+# Quick-start
+1. Clone the road-damage-detection repo into your path:
+
+   ```
+   git clone https://github.com/USC-InfoLab/rddc2020.git
+   ```
+
+
+
+
+
+
 
 
 
