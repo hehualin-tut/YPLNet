@@ -16,7 +16,7 @@ Sample predictions:
 | <img src="https://user-images.githubusercontent.com/92203298/189851969-dabd3d40-ea05-4dcd-babe-c4c7fe28e64a.jpg" width="200" height="200" alt="D00"/> | <img src="https://user-images.githubusercontent.com/92203298/189851990-c229a1e2-80a3-4cf2-a860-314f860a8032.jpg" width="200" height="200" alt="D00"/> |
 
 # Table of contents
-1.Prerequisites
+1.[Prerequisites](Prerequisites) 
 
 
 2.Quick-start
