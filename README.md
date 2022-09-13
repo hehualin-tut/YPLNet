@@ -10,3 +10,4 @@ The following are the results of our group in this competition
 
 Sample predictions:
 
+![Czech_000005](https://user-images.githubusercontent.com/92203298/189850301-5d7382d6-ea01-4aad-a34d-876bb2699bb4.jpg)
