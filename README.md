@@ -16,16 +16,16 @@ Sample predictions:
 | <img src="https://user-images.githubusercontent.com/92203298/189851969-dabd3d40-ea05-4dcd-babe-c4c7fe28e64a.jpg" width="200" height="200" alt="D00"/> | <img src="https://user-images.githubusercontent.com/92203298/189851990-c229a1e2-80a3-4cf2-a860-314f860a8032.jpg" width="200" height="200" alt="D00"/> |
 
 # Table of contents
-1.[Prerequisites](Prerequisites) 
+1.[Prerequisites](https://github.com/hhl12138/CRDDC2022#prerequisites) 
 
 
-2.Quick-start
+2.[Quick-start](https://github.com/hhl12138/CRDDC2022#Quick-start)
 
 
-3.Inference/Detection
+3.[Inference/Detection](https://github.com/hhl12138/CRDDC2022#Inference/Detection)
 
 
-4.Train your own model
+4.[Training](https://github.com/hhl12138/CRDDC2022#Training)
 
 # Prerequisites
 You need to install:
@@ -75,7 +75,7 @@ You need to install:
   python3 detect.py --weights weights/US/32-1024-110.pt --img 1024 --source [your datasets path] --conf-thres 0.17 --iou-thres 0.9999 --agnostic-nms --augment
   ```
   
-# Train your own model
+# Training
 
 1. run following command
 
