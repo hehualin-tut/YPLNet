@@ -47,10 +47,10 @@ You need to install:
    ```
    
 # Inference(Detection)
-1. Go to `yolov5` directory
+1. Go to `yolov5-master` directory
 
    ```
-   cd yolov5
+   cd yolov5-master
    ```
 2.Execute one of the follwoing commands to generate `results.csv`(competition format) and predicated images under `inference/output/`
 
