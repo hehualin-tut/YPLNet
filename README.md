@@ -6,7 +6,7 @@ This repository contains source code and trained models fo [Crowdsensing-based R
 The following are the results of our group in this competition
 |          | all countries | India | Japan | Norway | US   |
 | :------: | :-----------: | ----- | ----- | ------ | ---- |
-| F1-Score |               |       |       |        |      |
+| F1-Score |         0.694      |    0.519   |    0.773   |     0.464   |    0.727  |
 
 Sample predictions:
 |                             D00                              |                             D10                              |
