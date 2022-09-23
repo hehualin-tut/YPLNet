@@ -7,7 +7,7 @@ The following are the results of our group in this competition
 |          | all countries | India | Japan | Norway | US   |
 | :------: | :-----------: | ----- | ----- | ------ | ---- |
 | F1-Score |         0.694      |    0.519   |    0.773   |     0.464   |    0.727  
-| p |2
+| p |2                                                   |
 
 Sample predictions:
 |                             D00                              |                             D10                              |
