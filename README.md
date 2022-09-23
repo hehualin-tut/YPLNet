@@ -16,16 +16,16 @@ Sample predictions:
 | <img src="https://user-images.githubusercontent.com/92203298/189851969-dabd3d40-ea05-4dcd-babe-c4c7fe28e64a.jpg" width="200" height="200" alt="D00"/> | <img src="https://user-images.githubusercontent.com/92203298/189851990-c229a1e2-80a3-4cf2-a860-314f860a8032.jpg" width="200" height="200" alt="D00"/> |
 
 # Table of contents
-1.[Prerequisites](https://github.com/hhl12138/CRDDC2022#prerequisites) 
+1.[Prerequisites](https://github.com/hehualin-tut/YPLNet#prerequisites) 
 
 
-2.[Quick-start](https://github.com/hhl12138/CRDDC2022#Quick-start)
+2.[Quick-start](https://github.com/hehualin-tut/YPLNet#Quick-start)
 
 
-3.[Inference(Detection)](https://github.com/hhl12138/CRDDC2022#Inference(Detection))
+3.[Inference(Detection)](https://github.com/hehualin-tut/YPLNet#Inference(Detection))
 
 
-4.[Training](https://github.com/hhl12138/CRDDC2022#Training)
+4.[Training](https://github.com/hehualin-tut/YPLNet#Training)
 
 # Prerequisites
 You need to install:
@@ -43,7 +43,7 @@ You need to install:
 1. Clone the road-damage-detection repo into your path:
 
    ```
-   git clone https://github.com/hhl12138/CRDDC2022.git
+   git clone https://github.com/hehualin-tut/YPLNet.git
    ```
    
 # Inference(Detection)
@@ -80,7 +80,7 @@ You need to install:
 1. run following command
 
    ```
-   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1024
+   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1280
    ```
 
 visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments
