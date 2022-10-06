@@ -4,9 +4,9 @@ Crowdsensing-based Road Damage Detection Challenge (CRDDC2022)
 This repository contains source code and trained models fo [Crowdsensing-based Road Damage Detection Challenge](https://crddc2022.sekilab.global/overview/)  that was held as part of 2022 IEEE Big Data conference.
 
 The following are the results of our group in this competition
-|          | all countries | India | Japan | Norway | US   |
-| :------: | :-----------: | ----- | ----- | ------ | ---- |
-| F1-Score |         0.635      |    0.519   |    0.773   |     0.464   |    0.727  
+|          | all countries | India | Japan | Norway | US   |Mean-F1 Score   |
+| :------: | :-----------: | ----- | ----- | ------ | ---- | ---- |
+| F1-Score |         0.694      |    0.519   |    0.773   |     0.464   |    0.727  |    0.635
 
 
 Sample predictions:
