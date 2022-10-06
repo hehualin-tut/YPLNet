@@ -37,6 +37,7 @@ You need to install:
 
   ```
   # Python >= 3.6 is needed
+  cd yolov5-master
   pip3 install -r requirements.txt
   ```
   
