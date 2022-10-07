@@ -28,6 +28,13 @@ Sample predictions:
 
 4.[Training](https://github.com/hehualin-tut/YPLNet#Training)
 
+  
+# Quick-start
+1. Clone the road-damage-detection repo into your path:
+
+   ```
+   git clone https://github.com/hehualin-tut/YPLNet.git
+   ```
 # Prerequisites
 You need to install:
 
@@ -40,13 +47,6 @@ You need to install:
   cd yolov5-master
   pip3 install -r requirements.txt
   ```
-  
-# Quick-start
-1. Clone the road-damage-detection repo into your path:
-
-   ```
-   git clone https://github.com/hehualin-tut/YPLNet.git
-   ```
    
 # Inference(Detection)
 1. Go to `yolov5-master` directory
