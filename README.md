@@ -47,7 +47,7 @@ You need to install:
   cd yolov5-master
   pip3 install -r requirements.txt
   ```
--Note：The experiment is carried out on a TeslaV100 of the Ubuntu18.04 system, If you get a ''CUDA Out of Memory'' error during the training phase, you can try to reduce the img_size and batchsize.
+-Note：The experiment is carried out on a TeslaV100 of the Ubuntu18.04 system, If you get a ''CUDA Out of Memory'' error during the training phase, you can try to reduce ''the img-size'' and ''batch-size''.
    
 # Inference(Detection)
 
