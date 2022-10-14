@@ -78,10 +78,17 @@ You need to install:
 
 1. run following command
 
-   ```
-   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1280
-   ```
+  For all countries, India, Norway and US, we use weights under different epochs in a training because it saves time. you could run: 
 
+   ```
+   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1280 --epoch 150
+   
+   ```
+  Then, the weights under runs/train/[your project] are processed using the optimizer. you could run this:
+  
+  '''
+  python3 optimizer.py
+  '''
 visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments
 
 
