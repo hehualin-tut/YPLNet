@@ -75,7 +75,8 @@ You need to install:
   ```
   
 # Training
-First you need to modify the paths of the training and test sets in data/rdd4.yaml to match your own. For the division of training and test sets and the normalization of labels, refer to ```train_test_split.py ``` and ```data_normalization.py ```
+First you need to modify the paths of the training and test sets in data/rdd4.yaml to match your own. For the division of training and test sets and the normalization of labels, refer to ```train_test_split.py ``` and ```data_normalization.py ```.
+
 1.
   For all countries, India, Norway and US, we use weights under different epochs in a training because it saves time. you could run: 
 
@@ -94,7 +95,7 @@ First you need to modify the paths of the training and test sets in data/rdd4.ya
   ```
   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1024 --epoch 150
   ```
-visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments
+visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments.
 
 
 
