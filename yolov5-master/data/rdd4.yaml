@@ -1,12 +1,5 @@
-# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-#python train.py --data data/rdd4.yaml --cfg models/yolov5s.yaml --batch-size 16 --device 1 --epochs 30
-#python train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 16 --device 0 --epochs 120 --img-size 1024
-#python detect.py --source test/images --weights /data/1hhl/yolov7-main/runs/train/yolov7/weights/best.pt --save-txt
-#加了所有的增强图像
-train: /data/1hhl/RDD2022/rdd4/train.txt  # 118287 images
-val: /data/1hhl/RDD2022/rdd4/test.txt  # 5000 images
-test: /data/1hhl/RDD2022/rdd4/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-
+train: /data/1hhl/RDD2022/rdd4/train.txt  
+val: /data/1hhl/RDD2022/rdd4/val.txt 
 # number of classes
 nc: 4
 
