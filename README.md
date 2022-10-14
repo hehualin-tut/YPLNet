@@ -91,11 +91,14 @@ First you need to modify the paths of the training and test sets in data/rdd4.ya
   For my own inference results, the epochs corresponding to all countries, India, Norway and US are 140, 140, 138, and 140, respectively.
   
 2.  
-  For Japan, you could run:
+  For Japan, we used data augmentation for the D40 class to get better results.you could run:
   ```
   python3 train.py --data data/rdd4.yaml --cfg models/yolov5s-psalcfi.yaml --batch-size 32 --img-size 1024 --epoch 150
   ```
-visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments.
+  The weights obtained after the completion of the training also need to be processed using optimizer.
+
+This project is based on yolov5,visit [yolov5](https://github.com/ultralytics/yolov5) official source code for more training and inference time arguments.
+For data augmentation, visit [imgaug](https://github.com/aleju/imgaug) to get more details.
 
 
 
