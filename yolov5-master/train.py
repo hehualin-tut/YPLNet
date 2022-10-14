@@ -383,6 +383,9 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
                 torch.save(ckpt, last)
                 if best_fitness == fi:
                     torch.save(ckpt, best)
+                if (epoch+1)%1 == 0:
+                    epochpt = wdir / '{name1}.pt'.format(name1=str(epoch+1))
+                    torch.save(ckpt, epochpt)
                 if opt.save_period > 0 and epoch % opt.save_period == 0:
                     torch.save(ckpt, w / f'epoch{epoch}.pt')
                 del ckpt
