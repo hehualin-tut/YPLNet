@@ -67,11 +67,11 @@ You need to install:
   ```
 
   ```
-  python3 detect.py --weights weights/Norway/32-1024-130.pt --img 1280 --source [your datasets path] --conf-thres 0.10 --iou-thres 0.9999 --agnostic-nms --augment
+  python3 detect.py --weights weights/Norway/32-1280-138.pt --img 1280 --source [your datasets path] --conf-thres 0.10 --iou-thres 0.9999 --agnostic-nms --augment
   ```
 
   ```
-  python3 detect.py --weights weights/US/32-1024-110.pt --img 1280 --source [your datasets path] --conf-thres 0.11 --iou-thres 0.9999 --agnostic-nms --augment
+  python3 detect.py --weights weights/US/32-1280-150.pt --img 1280 --source [your datasets path] --conf-thres 0.11 --iou-thres 0.9999 --agnostic-nms --augment
   ```
   
 # Training
