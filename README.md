@@ -75,7 +75,7 @@ You need to install:
   ```
   
 # Training
-
+First you need to modify the paths of the training and test sets in data/rdd4.yaml to match your own. For the division of training and test sets and the normalization of labels, refer to ```train_test_split.py ``` and ```data_normalization.py ```
 1.
   For all countries, India, Norway and US, we use weights under different epochs in a training because it saves time. you could run: 
 
